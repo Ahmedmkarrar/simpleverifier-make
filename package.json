@@ -1,0 +1,10 @@
+{
+	"name": "make-simpleverifier",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Make custom app definition for SimpleVerifier (paste each block into the Make Apps editor).",
+	"scripts": {
+		"test": "node --test test/blueprint.test.js"
+	},
+	"license": "MIT"
+}

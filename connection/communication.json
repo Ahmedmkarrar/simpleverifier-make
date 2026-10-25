@@ -1,0 +1,19 @@
+{
+	"url": "https://simpleverifier.com/api/v1/me",
+	"method": "GET",
+	"headers": {
+		"Authorization": "Bearer {{parameters.apiKey}}"
+	},
+	"response": {
+		"error": {
+			"message": "[{{statusCode}}] {{body.error}}"
+		},
+		"metadata": {
+			"type": "email",
+			"value": "{{body.email}}"
+		}
+	},
+	"log": {
+		"sanitize": ["request.headers.authorization"]
+	}
+}

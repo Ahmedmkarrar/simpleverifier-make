@@ -1,0 +1,9 @@
+[
+	{ "name": "phone_status", "type": "text", "label": "Phone status" },
+	{ "name": "phone_e164", "type": "text", "label": "E.164 number" },
+	{ "name": "phone_country", "type": "text", "label": "Country" },
+	{ "name": "phone_type", "type": "text", "label": "Line type (numbering plan)" },
+	{ "name": "phone_carrier", "type": "text", "label": "Carrier (live lookup only)" },
+	{ "name": "phone_line_type", "type": "text", "label": "Line type (live lookup only)" },
+	{ "name": "live_lookup", "type": "boolean", "label": "Live lookup ran" }
+]

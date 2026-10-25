@@ -1,0 +1,8 @@
+{
+	"email": "jane@company.com",
+	"status": "valid",
+	"reason": "Mailbox exists",
+	"send_advice": "safe",
+	"reason_detail": "The mail server confirmed this mailbox exists.",
+	"mailbox_checked": true
+}

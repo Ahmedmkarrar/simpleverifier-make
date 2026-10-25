@@ -1,0 +1,17 @@
+{
+	"baseUrl": "https://simpleverifier.com/api/v1",
+	"headers": {
+		"Authorization": "Bearer {{connection.apiKey}}",
+		"Accept": "application/json"
+	},
+	"response": {
+		"error": {
+			"message": "[{{statusCode}}] {{body.error}}",
+			"429": { "type": "RateLimitError", "message": "SimpleVerifier rate limit reached (120 calls a minute per key)." },
+			"503": { "type": "ConnectionError", "message": "SimpleVerifier is briefly unavailable. Retry later." }
+		}
+	},
+	"log": {
+		"sanitize": ["request.headers.authorization"]
+	}
+}

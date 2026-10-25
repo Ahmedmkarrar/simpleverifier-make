@@ -1,0 +1,13 @@
+{
+	"url": "/phone",
+	"method": "POST",
+	"body": {
+		"phone": "{{parameters.phone}}",
+		"country": "{{ifempty(parameters.country; \"US\")}}",
+		"live": "{{parameters.live}}"
+	},
+	"type": "json",
+	"response": {
+		"output": "{{body}}"
+	}
+}

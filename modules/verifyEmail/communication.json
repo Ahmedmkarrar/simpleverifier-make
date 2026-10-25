@@ -1,0 +1,11 @@
+{
+	"url": "/verify",
+	"method": "POST",
+	"body": {
+		"email": "{{parameters.email}}"
+	},
+	"type": "json",
+	"response": {
+		"output": "{{body}}"
+	}
+}

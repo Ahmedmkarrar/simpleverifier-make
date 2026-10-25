@@ -1,0 +1,9 @@
+[
+	{
+		"name": "email",
+		"type": "email",
+		"label": "Email",
+		"required": true,
+		"help": "Only \"valid\" means the mail server confirmed the mailbox exists."
+	}
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"name": "apiKey",
+		"type": "password",
+		"label": "API Key",
+		"required": true,
+		"help": "Create a key at https://simpleverifier.com/api-keys (starts with sv_live_). API access comes with selected paid plans (see simpleverifier.com/pricing)."
+	}
+]

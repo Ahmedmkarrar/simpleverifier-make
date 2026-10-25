@@ -1,0 +1,7 @@
+{
+	"name": "verifyEmail",
+	"label": "Verify an Email Address",
+	"description": "Checks syntax, domain, disposable provider and the mailbox itself (live SMTP check). Returns valid, risky or invalid with a reason.",
+	"typeId": "action",
+	"connection": "simpleverifier"
+}

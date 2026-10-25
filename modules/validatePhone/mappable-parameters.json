@@ -1,0 +1,5 @@
+[
+	{ "name": "phone", "type": "text", "label": "Phone number", "required": true, "help": "As written, e.g. +44 7911 123456 or (415) 555-2671." },
+	{ "name": "country", "type": "text", "label": "Country", "default": "US", "help": "Two-letter country code used for numbers written without a leading +." },
+	{ "name": "live", "type": "boolean", "label": "Live carrier lookup", "default": true, "help": "Live lookups need live phone lookups on your account; without them you get the free numbering-plan check." }
+]

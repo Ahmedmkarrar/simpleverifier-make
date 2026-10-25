@@ -1,0 +1,15 @@
+{
+	"name": "simpleverifier",
+	"label": "SimpleVerifier",
+	"description": "SimpleVerifier is an email and phone verification service. It checks an email address's syntax, domain, disposable provider and live mailbox, and returns valid, risky or invalid with a reason. It also checks phone number format and line type.",
+	"homepage": "https://simpleverifier.com",
+	"support": "support@simpleverifier.com",
+	"privacy": "https://simpleverifier.com/privacy",
+	"terms": "https://simpleverifier.com/terms",
+	"docs": "https://simpleverifier.com/docs/api",
+	"language": "en",
+	"audience": "global",
+	"theme": "#0b0b0f",
+	"icon": "icon.png",
+	"connection": { "name": "simpleverifier", "type": "apikey", "label": "SimpleVerifier API key" }
+}

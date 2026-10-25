@@ -1,0 +1,7 @@
+{
+	"name": "validatePhone",
+	"label": "Validate a Phone Number",
+	"description": "Checks a number against its country numbering plan: E.164 form, country and line type. Does not say whether a number is in service.",
+	"typeId": "action",
+	"connection": "simpleverifier"
+}

@@ -1,0 +1,8 @@
+[
+	{ "name": "email", "type": "text", "label": "Email" },
+	{ "name": "status", "type": "text", "label": "Status (valid, risky or invalid)" },
+	{ "name": "reason", "type": "text", "label": "Reason" },
+	{ "name": "send_advice", "type": "text", "label": "Send advice (safe, care, retry or do_not_send)" },
+	{ "name": "reason_detail", "type": "text", "label": "Reason detail" },
+	{ "name": "mailbox_checked", "type": "boolean", "label": "Mailbox check available" }
+]
